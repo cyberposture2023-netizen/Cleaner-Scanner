@@ -18,4 +18,4 @@ Start-Job -ScriptBlock {
     Listen-ForVoiceCommand
 }
 Start-Sleep -Seconds 3
-Write-Host " Cyber Posture Cleaner launched in background."
+Write-Host " Cyber Posture Cleaner launched with unified dashboard."

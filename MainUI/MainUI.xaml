@@ -1,0 +1,41 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Cyber Posture Cleaner" Height="600" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="System Cleanup">
+                <StackPanel Margin="10">
+                    <Button Content="Clean Temp Files" Name="btnTemp" Margin="5"/>
+                    <Button Content="Empty Recycle Bin" Name="btnRecycle" Margin="5"/>
+                    <Button Content="Clear Browser Cache" Name="btnBrowser" Margin="5"/>
+                    <Button Content="Erase Privacy Data" Name="btnPrivacy" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Network Scanner">
+                <StackPanel Margin="10">
+                    <Button Content="Scan Network" Name="btnScan" Margin="5"/>
+                    <Button Content="Export Results" Name="btnExport" Margin="5"/>
+                    <ListBox Name="lstScanResults" Height="250" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Admin">
+                <StackPanel Margin="10">
+                    <TextBox Name="txtUsername" PlaceholderText="Enter username" Margin="5"/>
+                    <Button Content="Add User" Name="btnAddUser" Margin="5"/>
+                    <Button Content="Remove User" Name="btnRemoveUser" Margin="5"/>
+                    <CheckBox Content="Enable Auto-Cleanup" Name="chkAuto" Margin="5"/>
+                    <CheckBox Content="Enable Network Alerts" Name="chkAlerts" Margin="5"/>
+                    <Button Content="Create Restore Point" Name="btnRestore" Margin="5"/>
+                    <Button Content="Toggle Dark Mode" Name="btnTheme" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="System Health">
+                <StackPanel Margin="10">
+                    <Button Content="Refresh Dashboard" Name="btnRefresh" Margin="5"/>
+                    <TextBlock Name="txtHealth" Text="System health will appear here..." Margin="5" TextWrapping="Wrap"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <TextBlock Text="Cyber Posture LLC | @ Privacy all rights reserved"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
+    </Grid>
+</Window>

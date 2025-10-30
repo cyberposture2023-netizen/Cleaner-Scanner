@@ -22,3 +22,5 @@ Patch: Fixed null error in VoiceCommand.ps1.
 Phase 4: Full app launch with browser auto-open and background job.
 
 Phase 4.1: Added System Health tab to Admin UI and removed browser launch.
+
+Phase 4.2: Created unified dashboard UI (MainUI.xaml).
