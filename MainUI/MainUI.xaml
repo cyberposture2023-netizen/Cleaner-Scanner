@@ -1,37 +1,36 @@
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Cyber Posture Cleaner" Height="600" Width="800">
     <Grid>
         <TabControl>
             <TabItem Header="System Cleanup">
                 <StackPanel Margin="10">
-                    <Button Content="Clean Temp Files" Name="btnTemp" Margin="5"/>
-                    <Button Content="Empty Recycle Bin" Name="btnRecycle" Margin="5"/>
-                    <Button Content="Clear Browser Cache" Name="btnBrowser" Margin="5"/>
-                    <Button Content="Erase Privacy Data" Name="btnPrivacy" Margin="5"/>
+                    <Button Content="Clean Temp Files" x:Name="btnTemp" Margin="5"/>
+                    <Button Content="Empty Recycle Bin" x:Name="btnRecycle" Margin="5"/>
+                    <Button Content="Clear Browser Cache" x:Name="btnBrowser" Margin="5"/>
+                    <Button Content="Erase Privacy Data" x:Name="btnPrivacy" Margin="5"/>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Network Scanner">
                 <StackPanel Margin="10">
-                    <Button Content="Scan Network" Name="btnScan" Margin="5"/>
-                    <Button Content="Export Results" Name="btnExport" Margin="5"/>
-                    <ListBox Name="lstScanResults" Height="250" Margin="5"/>
+                    <Button Content="Scan Network" x:Name="btnScan" Margin="5"/>
+                    <Button Content="Export Results" x:Name="btnExport" Margin="5"/>
+                    <ListBox x:Name="lstScanResults" Height="250" Margin="5"/>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Admin">
                 <StackPanel Margin="10">
-                    <TextBox Name="txtUsername" PlaceholderText="Enter username" Margin="5"/>
-                    <Button Content="Add User" Name="btnAddUser" Margin="5"/>
-                    <Button Content="Remove User" Name="btnRemoveUser" Margin="5"/>
-                    <CheckBox Content="Enable Auto-Cleanup" Name="chkAuto" Margin="5"/>
-                    <CheckBox Content="Enable Network Alerts" Name="chkAlerts" Margin="5"/>
-                    <Button Content="Create Restore Point" Name="btnRestore" Margin="5"/>
-                    <Button Content="Toggle Dark Mode" Name="btnTheme" Margin="5"/>
+                    <TextBox x:Name="txtUsername" Margin="5"/>
+                    <Button Content="Add User" x:Name="btnAddUser" Margin="5"/>
+                    <Button Content="Remove User" x:Name="btnRemoveUser" Margin="5"/>
+                    <Button Content="Create Restore Point" x:Name="btnRestore" Margin="5"/>
+                    <Button Content="Toggle Dark Mode" x:Name="btnTheme" Margin="5"/>
                 </StackPanel>
             </TabItem>
             <TabItem Header="System Health">
                 <StackPanel Margin="10">
-                    <Button Content="Refresh Dashboard" Name="btnRefresh" Margin="5"/>
-                    <TextBlock Name="txtHealth" Text="System health will appear here..." Margin="5" TextWrapping="Wrap"/>
+                    <Button Content="Refresh Dashboard" x:Name="btnRefresh" Margin="5"/>
+                    <TextBlock x:Name="txtHealth" Text="System health will appear here..." Margin="5" TextWrapping="Wrap"/>
                 </StackPanel>
             </TabItem>
         </TabControl>
