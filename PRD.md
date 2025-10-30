@@ -20,3 +20,5 @@ Cyber Posture LLC
 - Git
 
 ### Patch 3\n- Used single-quoted here-string to preserve PowerShell syntax.
+
+## Phase 1.2\n- Scanner module with UI and subnet ping sweep.

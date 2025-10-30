@@ -1,0 +1,15 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Cyber Posture Scanner" Height="400" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Network Scanner">
+                <StackPanel Margin="10">
+                    <Button Content="Scan Local Network" Name="btnScan" Margin="5"/>
+                    <ListBox Name="lstResults" Height="250" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <TextBlock Text="Cyber Posture LLC | @ Privacy all rights reserved"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
+    </Grid>
+</Window>

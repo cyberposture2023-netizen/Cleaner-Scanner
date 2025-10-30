@@ -8,3 +8,5 @@ A CCleaner-style desktop utility with added network scanner, designed for users 
 **UI:** Tabbed navigation, footer branding, security-first design  
 
 Patch 3: Rewrote Cleanup.ps1 using single-quoted here-string.
+
+Phase 1.2: Added Network Scanner module with ping sweep.
