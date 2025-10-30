@@ -24,3 +24,5 @@ Cyber Posture LLC
 ## Phase 1.2\n- Scanner module with UI and subnet ping sweep.
 
 ## Phase 1.3\n- Admin module with tabs for users, settings, and logs.
+
+## Phase 2.1\n- Executable packaging using ps2exe with Cyber Posture LLC branding.
