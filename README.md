@@ -16,3 +16,5 @@ Phase 1.3: Added Admin module with user management, settings, and audit logs.
 Phase 2.1: Packaged app into branded executable.
 
 Phase 2.22.6: Added scheduler, alerts, dark mode, dashboard, and export.
+
+Patch: Fixed null error in VoiceCommand.ps1.

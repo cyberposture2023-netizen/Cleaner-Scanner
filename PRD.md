@@ -28,3 +28,5 @@ Cyber Posture LLC
 ## Phase 2.1\n- Executable packaging using ps2exe with Cyber Posture LLC branding.
 
 ## Phase 2.22.6\n- Auto-cleanup scheduler\n- Network alerting\n- Dark mode toggle\n- System health dashboard\n- Export scan results to CSV
+
+### Patch\n- Added null check to prevent crash when no voice input is detected.

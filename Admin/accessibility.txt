@@ -1,0 +1,3 @@
+FontSize=16
+Tooltips=Enabled
+Shortcuts=Enabled
