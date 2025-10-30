@@ -10,3 +10,5 @@ A CCleaner-style desktop utility with added network scanner, designed for users 
 Patch 3: Rewrote Cleanup.ps1 using single-quoted here-string.
 
 Phase 1.2: Added Network Scanner module with ping sweep.
+
+Phase 1.3: Added Admin module with user management, settings, and audit logs.

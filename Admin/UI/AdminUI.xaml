@@ -1,0 +1,28 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Cyber Posture Admin" Height="400" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="User Management">
+                <StackPanel Margin="10">
+                    <TextBox Name="txtUsername" PlaceholderText="Enter username" Margin="5"/>
+                    <Button Content="Add User" Name="btnAddUser" Margin="5"/>
+                    <Button Content="Remove User" Name="btnRemoveUser" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Settings">
+                <StackPanel Margin="10">
+                    <CheckBox Content="Enable Auto-Cleanup" Name="chkAuto" Margin="5"/>
+                    <CheckBox Content="Enable Network Alerts" Name="chkAlerts" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Audit Logs">
+                <StackPanel Margin="10">
+                    <Button Content="View Logs" Name="btnLogs" Margin="5"/>
+                    <ListBox Name="lstLogs" Height="200" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <TextBlock Text="Cyber Posture LLC | @ Privacy all rights reserved"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
+    </Grid>
+</Window>

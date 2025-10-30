@@ -22,3 +22,5 @@ Cyber Posture LLC
 ### Patch 3\n- Used single-quoted here-string to preserve PowerShell syntax.
 
 ## Phase 1.2\n- Scanner module with UI and subnet ping sweep.
+
+## Phase 1.3\n- Admin module with tabs for users, settings, and logs.
