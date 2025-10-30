@@ -1,11 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net9.0-windows7.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net9.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Sudhakar\\.nuget\\packages\\": {}
@@ -23,11 +23,11 @@
         "C:\\Users\\Sudhakar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net6.0-windows"
+        "net9.0-windows"
       ],
       "frameworks": {
-        "net6.0-windows7.0": {
-          "targetAlias": "net6.0-windows",
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
           "projectReferences": {}
         }
       },
@@ -44,8 +44,8 @@
       "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
-      "net6.0-windows7.0": {
-        "targetAlias": "net6.0-windows",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -57,24 +57,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.36, 6.0.36]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -83,46 +65,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "libraryId": "Microsoft.NETCore.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "libraryId": "Microsoft.AspNetCore.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }

@@ -1,53 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ql/7plxmTmU=",
-  "success": false,
+  "dgSpecHash": "648PqyBEVAs=",
+  "success": true,
   "projectFilePath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "projectPath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "filePath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "libraryId": "Microsoft.NETCore.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.WindowsDesktop.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "projectPath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "filePath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.AspNetCore.App.Ref (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "projectPath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "filePath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "libraryId": "Microsoft.AspNetCore.App.Ref",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    },
-    {
-      "code": "NU1100",
-      "level": "Error",
-      "message": "Unable to resolve 'Microsoft.NETCore.App.Host.win-x64 (= 6.0.36)' for 'net6.0-windows7.0'.",
-      "projectPath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "filePath": "D:\\Cleaner-Scanner_20251030_104708\\CyberPostureHost\\CyberPostureHost.csproj",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        "net6.0-windows7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

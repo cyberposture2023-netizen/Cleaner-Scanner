@@ -32,3 +32,5 @@ Phase 4.4: Fixed UI bindings and button wiring in MainUI.xaml and MainUI_Launch.
 Phase 5: Created WPF host and packaged CyberPostureCleaner.exe
 
 Phase 5.1: Patched WPF host for stability, error logging, and working UI buttons.
+
+Phase 5.2: Fixed .NET version mismatch and rebuilt executable for SDK 9.0.306
