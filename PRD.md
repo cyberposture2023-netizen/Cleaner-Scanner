@@ -42,3 +42,5 @@ Cyber Posture LLC
 ## Phase 4.4\n- Corrected x:Name bindings\n- Verified button references\n- Updated launcher
 
 ## Phase 5\n- WPF host integration\n- Executable launcher\n- UI triggers PowerShell logic
+
+## Phase 5.1\n- Fixed WPF initialization\n- Added error logging\n- Ensured UI stays open\n- Rebuilt CyberPostureCleaner.exe
