@@ -1,0 +1,34 @@
+<Window x:Class="CyberPostureHost.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cyber Posture Cleaner" Height="600" Width="800">
+    <Grid>
+        <TabControl>
+            <TabItem Header="System Cleanup">
+                <StackPanel Margin="10">
+                    <Button Content="Clean Temp Files" Name="btnTemp" Margin="5"/>
+                    <Button Content="Erase Privacy Data" Name="btnPrivacy" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Network Scanner">
+                <StackPanel Margin="10">
+                    <Button Content="Scan Network" Name="btnScan" Margin="5"/>
+                    <Button Content="Export Results" Name="btnExport" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Admin">
+                <StackPanel Margin="10">
+                    <TextBox Name="txtUsername" Margin="5"/>
+                    <Button Content="Add User" Name="btnAddUser" Margin="5"/>
+                    <Button Content="Create Restore Point" Name="btnRestore" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="System Health">
+                <StackPanel Margin="10">
+                    <Button Content="Refresh Dashboard" Name="btnRefresh" Margin="5"/>
+                    <TextBlock Name="txtHealth" Text="System health will appear here..." Margin="5" TextWrapping="Wrap"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
