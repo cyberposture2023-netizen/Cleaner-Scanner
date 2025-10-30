@@ -1,5 +1,5 @@
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        Title="Cyber Posture Admin" Height="400" Width="600">
+        Title="Cyber Posture Admin" Height="500" Width="650">
     <Grid>
         <TabControl>
             <TabItem Header="User Management">
@@ -19,6 +19,12 @@
                 <StackPanel Margin="10">
                     <Button Content="View Logs" Name="btnLogs" Margin="5"/>
                     <ListBox Name="lstLogs" Height="200" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="System Health">
+                <StackPanel Margin="10">
+                    <Button Content="Refresh Dashboard" Name="btnRefresh" Margin="5"/>
+                    <TextBlock Name="txtHealth" Text="System health will appear here..." Margin="5" TextWrapping="Wrap"/>
                 </StackPanel>
             </TabItem>
         </TabControl>

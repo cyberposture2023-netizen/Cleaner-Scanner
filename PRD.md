@@ -32,3 +32,5 @@ Cyber Posture LLC
 ### Patch\n- Added null check to prevent crash when no voice input is detected.
 
 ## Phase 4\n- Full app launch script\n- Background job\n- Browser auto-open to dashboard
+
+## Phase 4.1\n- Dashboard tab added to AdminUI.xaml\n- Browser launch removed from launch_full.ps1

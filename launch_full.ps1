@@ -18,4 +18,4 @@ Start-Job -ScriptBlock {
     Listen-ForVoiceCommand
 }
 Start-Sleep -Seconds 3
-Start-Process "http://localhost:8080/dashboard"
+Write-Host " Cyber Posture Cleaner launched in background."

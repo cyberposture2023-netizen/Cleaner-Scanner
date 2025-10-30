@@ -20,3 +20,5 @@ Phase 2.22.6: Added scheduler, alerts, dark mode, dashboard, and export.
 Patch: Fixed null error in VoiceCommand.ps1.
 
 Phase 4: Full app launch with browser auto-open and background job.
+
+Phase 4.1: Added System Health tab to Admin UI and removed browser launch.
