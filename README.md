@@ -34,3 +34,5 @@ Phase 5: Created WPF host and packaged CyberPostureCleaner.exe
 Phase 5.1: Patched WPF host for stability, error logging, and working UI buttons.
 
 Phase 5.2: Fixed .NET version mismatch and rebuilt executable for SDK 9.0.306
+
+Phase 5.2: .NET compatibility patch and executable rebuild for SDK 9.0
