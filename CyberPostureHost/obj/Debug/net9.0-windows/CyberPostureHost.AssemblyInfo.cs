@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CyberPostureHost")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94a3ec121891a0e8c4b7f2d37d354e56be98ce6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37e293d3f83db6b4170440028cc8d1745def39be")]
 [assembly: System.Reflection.AssemblyProductAttribute("CyberPostureHost")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CyberPostureHost")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

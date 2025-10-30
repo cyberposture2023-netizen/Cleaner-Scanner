@@ -30,5 +30,6 @@
                 </StackPanel>
             </TabItem>
         </TabControl>
+        <TextBlock Text="Cyber Posture Cleaner is running..." HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
     </Grid>
 </Window>
