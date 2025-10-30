@@ -1,0 +1,20 @@
+# Product Requirements Document (PRD)
+
+## Overview
+Cleaner-Scanner is a desktop utility for system cleanup and network scanning, tailored for older users.
+
+## Architecture
+- Security-first, privacy-first
+- Modular design: Cleaner, Scanner, Admin
+- Open-source stack (Node.js, Python, .NET)
+- GitHub-based CI/CD
+
+## Branding
+Cyber Posture LLC  
+@ Privacy all rights reserved
+
+## Initial Dependencies
+- Node.js LTS
+- Python 3.x
+- .NET SDK
+- Git

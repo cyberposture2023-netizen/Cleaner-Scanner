@@ -1,0 +1,8 @@
+# Cleaner-Scanner
+
+A CCleaner-style desktop utility with added network scanner, designed for users 55+.
+
+**Branding:** Cyber Posture LLC  
+**Privacy:** @ Privacy all rights reserved  
+**Modules:** Cleaner, Network Scanner, Admin  
+**UI:** Tabbed navigation, footer branding, security-first design  
