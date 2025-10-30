@@ -18,3 +18,5 @@ Phase 2.1: Packaged app into branded executable.
 Phase 2.22.6: Added scheduler, alerts, dark mode, dashboard, and export.
 
 Patch: Fixed null error in VoiceCommand.ps1.
+
+Phase 4: Full app launch with browser auto-open and background job.
