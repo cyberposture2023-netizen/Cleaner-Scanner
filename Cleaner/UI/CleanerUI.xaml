@@ -1,0 +1,16 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        Title="Cyber Posture Cleaner" Height="400" Width="600">
+    <Grid>
+        <TabControl>
+            <TabItem Header="System Cleanup">
+                <StackPanel Margin="10">
+                    <Button Content="Clean Temp Files" Name="btnTemp" Margin="5"/>
+                    <Button Content="Empty Recycle Bin" Name="btnRecycle" Margin="5"/>
+                    <Button Content="Clear Browser Cache" Name="btnBrowser" Margin="5"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <TextBlock Text="Cyber Posture LLC | @ Privacy all rights reserved"
+                   HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10"/>
+    </Grid>
+</Window>

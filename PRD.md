@@ -18,3 +18,5 @@ Cyber Posture LLC
 - Python 3.x
 - .NET SDK
 - Git
+
+### Patch 3\n- Used single-quoted here-string to preserve PowerShell syntax.

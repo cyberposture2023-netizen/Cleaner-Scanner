@@ -6,3 +6,5 @@ A CCleaner-style desktop utility with added network scanner, designed for users 
 **Privacy:** @ Privacy all rights reserved  
 **Modules:** Cleaner, Network Scanner, Admin  
 **UI:** Tabbed navigation, footer branding, security-first design  
+
+Patch 3: Rewrote Cleanup.ps1 using single-quoted here-string.
